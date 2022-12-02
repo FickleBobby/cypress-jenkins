@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	tools {nodejs "Node16"}
 	environment {
-   		CHROME_BIN = '/bin/google-chrome'
+   		ELECTRON_RUN_AS_NODE=1
    	}
 	
 	stages {
